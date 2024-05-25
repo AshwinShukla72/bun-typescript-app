@@ -1,0 +1,23 @@
+{
+  "name": "basic-crud-api-bun",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "build": "bun build src/index.ts",
+    "start": "NODE_ENV=production bun src/index.ts",
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "@types/winston": "^2.4.4",
+    "serve-static-bun": "^0.5.3",
+    "winston": "^3.13.0"
+  }
+}
